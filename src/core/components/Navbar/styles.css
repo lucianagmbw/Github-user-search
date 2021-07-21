@@ -1,0 +1,17 @@
+.nav-container{
+
+    height: 64 px;
+    background: #1890FF;
+    display: flex;
+}
+
+.nav-content{
+    padding: 15px 0px 15px 0px; ;
+}
+
+.nav-title{
+    color:  #FFFFFF ;
+    font-weight: 500;
+    margin-left: 41px;
+    font-size: 24px;
+}

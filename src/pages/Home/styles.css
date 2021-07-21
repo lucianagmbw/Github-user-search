@@ -1,0 +1,28 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    margin: 117px 120px 30px 100px;
+  }
+  
+  .home-title{
+    line-height: 64px;
+    font-weight: 700;
+    font-size: 48px;
+    color:#062847;
+   
+  }
+p.content{
+    font-weight:400;
+    font-size: 20px;
+    margin-top: 24px;
+    line-height:36px;
+    color: #5A6774;
+    width: 612px;
+    margin-bottom: 56px;
+   
+}
+
+.mail{
+  color: #107de2;
+  cursor: pointer;
+}
