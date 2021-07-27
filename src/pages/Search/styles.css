@@ -1,10 +1,143 @@
-.container {
+.search-container {
     width: 1200px;
-    margin: 54px 90px 54px 90px;
+    margin: 54px 90px ;
   }
   
   .search-content{
     border-radius: 16px;
     background-color: #E6F7FF;
-    padding: 65px 95px 40px 95px;
+    padding: 55px 95px 55px 95px;
+    margin-bottom: 55px;
+  }
+
+  .search-title{
+    width: 500px;
+    font-weight: 500;
+    font-size: 38px;
+    color: #262626;  
+    
+  }
+.search-input{
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 40px;
+  width: 676px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #BFBFBF;
+  margin-top: 12px;
+  margin-bottom: 30px;
+  padding: 8px 27px;
+
+}
+
+.button-find {
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+}
+
+.search-result-content{
+    
+  padding: 30px;
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  display: flex;
+}
+
+
+  .search-result-perfil{
+
+    margin-right: 44px;
+    
+
+  }
+
+  .search-result-perfil-img{
+  
+    width: 276px;
+    height: 280px;
+    margin-bottom: 17px;
+    border-radius: 8px;
+   
+    
+  }
+
+  .search-result-perfil div {
+    width: 100px;
+  }
+  
+  .search-result-perfil a {
+    margin-left: 0px;
+    display: flex;
+  }
+  
+
+  .search-result-info{
+    
+    flex: 1;
+  }
+
+
+  .github-info span{
+   
+    height: 20px;
+    left: 14px;
+    right: 253px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #595959;
+    font-weight: 400;
+    display: inline-block;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    margin-right: 8px;
+  }
+
+
+
+  .user-perfil-info{
+    background-color: #FFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 11px;
+  height: 247px;
+  padding: 8px 17px 17px 14px;
+    
+   
+
+  }
+
+
+  .user-perfil-info h1 {
+   
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1890FF;
+    margin-bottom: 19px;
+  }
+
+
+  .user-perfil-info p {
+    padding: 8px 10px;
+    background-color: #FFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+  
+    
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+  
+    margin-bottom: 5px;
   }
